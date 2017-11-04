@@ -1,0 +1,11 @@
+<% flash.each do |key, value| %>
+  <div class='row'>
+    <div class= 'col-md-12'>
+      <div class= 'alert alert-<%= key %>'>
+        <a href="#" data-dismiss="alert" class="close">&#215;</a>
+          <h4 class= 'alert-heading'><%= key %></h4>
+          <%= content_tag :div, value, :id => "flash_#{key}" if value.is_a?(String)%>
+      </div>
+  </div>
+</div>
+<% end %>
