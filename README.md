@@ -11,7 +11,7 @@ Built an app that allows users to look up stocks, add them to a personal portfol
 # Configuration
 Follow the [Ruby on Rails guide](http://guides.rubyonrails.org/getting_started.html) to correctly setup your local enviroment.
 <h3>Development instructions</h3>
-Clone the repository then run the following commands inside the folder:
+Clone the repository then run the following commands from the command line:
 <ol>
   <li>cd finance-tracker</li>
   <li>bundle install --without production</li>
